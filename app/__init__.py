@@ -45,8 +45,6 @@ def app_creator():
     api.add_resource(SponsorResource, "/api/search_sponsor", "/api/search_sponsor/<int:sponsor_id>")
 
 
-    NoctiWave.run(debug=True, port=6969)
-
     return NoctiWave
 
 
