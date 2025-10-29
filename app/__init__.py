@@ -63,3 +63,6 @@ def database_creator():
             print("Database created and tables initialized. Let's Go!")
     else:
             print("Database already exists. Let's Go!")
+
+app = app_creator()
+database_creator()
